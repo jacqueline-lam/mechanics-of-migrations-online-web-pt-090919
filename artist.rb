@@ -1,3 +1,3 @@
-class Artist
+class Artist < ActiveRecod::Base
 
 end
