@@ -7,8 +7,9 @@ class CreateArtists < ActiveRecord::Migration[5.2]
   def down
   end
   
-  # create tables using only Ruby
+
   def change
+    # create tables using only Ruby
     create_table :artists do |t|
     end
   end
